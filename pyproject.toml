@@ -1,0 +1,23 @@
+[project]
+name = "mentalsupport-v2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standart]",
+    "geopy",
+    "googlemaps",
+    "langchain",
+    "langchain-groq",
+    "langchain-openai",
+    "langgraph",
+    "ngrok>=1.5.1",
+    "ollama",
+    "pydantic",
+    "python-multipart",
+    "requests",
+    "streamlit",
+    "twilio",
+    "uvicorn",
+]
